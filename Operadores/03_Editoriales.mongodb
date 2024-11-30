@@ -8,3 +8,5 @@ db.editoriales.find( { cant_autores: { $lte: 1050 } })
 
 //Operador $lt: Cantidad de publicaciones menor a 3000 y cantidad de autores menor a 1200
 db.editoriales.find( { cant_publicaciones: { $lt: 3000 }, cant_autores: { $lt: 1200}})
+
+
