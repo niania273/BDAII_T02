@@ -1,12 +1,16 @@
 use("BD_BIBLIOTECA")
 
 db.editoriales.insertMany(
-    [{
-    _id: "ED101",
-    nombre: "Editorial Planeta",
-    direccion: "Av. Camino Real 111, San Isidro, Lima",
-    telefono: 934928800,
-    sitio_web: "www.planetadelibros.com"
+    [
+    {
+        _id: "ED101",
+        nombre: "Editorial Planeta",
+        direccion: "Av. Camino Real 111, San Isidro, Lima",
+        telefono: 934928800,
+        sitio_web: "www.planetadelibros.com",
+        cant_publicaciones: 3010,
+        cant_autores: 1250,
+        generos: ["Ciencia ficción", "Ensayos"]
     },
     {
         _id: "ED102",
@@ -14,6 +18,8 @@ db.editoriales.insertMany(
         direccion: "Av. Javier Prado Este 6210, La Molina, Lima",
         telefono: 934970006,
         sitio_web: "www.normaperu.com.pe",
+        cant_publicaciones: 1510,
+        cant_autores: 1050,
         generos: ["Ciencia ficción", "Ensayos"],
         redes_sociales: [{
             youtube: "@editorial_sant",
@@ -27,6 +33,8 @@ db.editoriales.insertMany(
         direccion: "Calle Monte Rosa 255, Surco, Lima",
         telefono: 934935467,
         sitio_web: "www.penguinperu.com.pe",
+        cant_publicaciones: 2310,
+        cant_autores: 1130,
         generos: ["Literatura infantil", "Ciencia ficción", "Ensayos"],
         redes_sociales: [{
             youtube: "@editorial_penguin",
@@ -40,6 +48,8 @@ db.editoriales.insertMany(
         direccion: "Jr. Santa Rosa 300, Centro de Lima, Lima",
         telefono: 934974506,
         sitio_web: "www.elcomercio.pe",
+        cant_publicaciones: 1170,
+        cant_autores: 1223,
         generos: ["Ensayos", "Ciencia ficción"],
         redes_sociales: [{
             youtube: "@editorial_elcomercio",
@@ -53,6 +63,8 @@ db.editoriales.insertMany(
         direccion: "Av. Larco 1234, Miraflores, Lima",
         telefono: 934970006,
         sitio_web: "www.editorialmesaredonda.com.pe",
+        cant_publicaciones: 1123,
+        cant_autores: 1200,
         generos: ["Literatura infantil", "Ensayos"],
         redes_sociales: [{
             youtube: "@editorial_mesar",
@@ -66,6 +78,8 @@ db.editoriales.insertMany(
         direccion: "Av. Universitaria 1801, San Miguel, Lima",
         telefono: 934970056,
         sitio_web: "www.fondopucp.edu.pe",
+        cant_publicaciones: 1180,
+        cant_autores: 1280,
         generos: ["Literatura infantil", "Ciencia ficción"],
         redes_sociales: [{
             youtube: "@editorial_pucp",

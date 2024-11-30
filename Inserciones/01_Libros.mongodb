@@ -1,0 +1,39 @@
+use("BD_BIBLIOTECA")
+
+db.libros.insertMany([
+    {
+        _id: "LIB0001",
+        Nombre: "Cien años de soledad",
+        Autor: "Gabriel García Márquez",
+        Lanzamiento: 1996,
+        precio: 50,
+    },
+    {
+        _id: "LIB0002",
+        Nombre: "Orgullo y prejuicio",
+        Autor: "Jane Austen",
+        Lanzamiento: 1813,
+        precio: 80,
+    },
+    {
+        _id: "LIB0003",
+        Nombre: "Cien años de soledad",
+        Autor: "Gabriel García Márquez",
+        Lanzamiento: 1996,
+        precio: 60
+    },
+    {
+        _id: "LIB0004",
+        Nombre: "1813",
+        Autor: "Miguel de Cervantes",
+        Lanzamiento: 1605,
+        precio: 85,
+    },
+    {
+        _id: "LIB0005",
+        Nombre: "El señor de los anillos: La comunidad del anillo",
+        Autor: "J.R.R. Tolkien",
+        Lanzamiento: 1954,
+        precio: 90,
+    },
+])

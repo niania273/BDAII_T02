@@ -1,0 +1,3 @@
+db.libros.find({ Lanzamiento: { $lt: 1900 } })
+ 
+db.libros.find({ precio: { $lt: 80 } })
