@@ -1,3 +1,7 @@
+use("BD_BIBLIOTECA")
+
+//Libros con año de lanzamiento menor a 1900
 db.libros.find({ Lanzamiento: { $lt: 1900 } })
  
+//Libros con precio menor a 80
 db.libros.find({ precio: { $lt: 80 } })

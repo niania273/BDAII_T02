@@ -11,7 +11,6 @@ db.libros.insertMany([
     {
         _id: "LIB0002",
         Nombre: "Orgullo y prejuicio",
-        Autor: "Jane Austen",
         Lanzamiento: 1813,
         precio: 80,
     },
@@ -30,7 +29,6 @@ db.libros.insertMany([
         precio: 85,
     },
     {
-        _id: "LIB0005",
         Nombre: "El señor de los anillos: La comunidad del anillo",
         Autor: "J.R.R. Tolkien",
         Lanzamiento: 1954,
