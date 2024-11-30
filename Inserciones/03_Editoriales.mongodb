@@ -1,3 +1,76 @@
 use("BD_BIBLIOTECA")
 
-db.editoriales.insertMany
+db.editoriales.insertMany(
+    [{
+    _id: "ED101",
+    nombre: "Editorial Planeta",
+    direccion: "Av. Camino Real 111, San Isidro, Lima",
+    telefono: 934928800,
+    sitio_web: "www.planetadelibros.com"
+    },
+    {
+        _id: "ED102",
+        nombre: "Editorial Santillana",
+        direccion: "Av. Javier Prado Este 6210, La Molina, Lima",
+        telefono: 934970006,
+        sitio_web: "www.normaperu.com.pe",
+        generos: ["Ciencia ficción", "Ensayos"],
+        redes_sociales: [{
+            youtube: "@editorial_sant",
+            instagram: "@edi_sant",
+            twitter: "edita_santillana"
+        }]
+    },
+    {
+        _id: "ED103",
+        nombre: "Penguin Random House Perú",
+        direccion: "Calle Monte Rosa 255, Surco, Lima",
+        telefono: 934935467,
+        sitio_web: "www.penguinperu.com.pe",
+        generos: ["Literatura infantil", "Ciencia ficción", "Ensayos"],
+        redes_sociales: [{
+            youtube: "@editorial_penguin",
+            instagram: "@edi_penguin",
+            twitter: "edita_penguin"
+        }]
+    },
+    {
+        _id: "ED104",
+        nombre: "Editorial El Comercio",
+        direccion: "Jr. Santa Rosa 300, Centro de Lima, Lima",
+        telefono: 934974506,
+        sitio_web: "www.elcomercio.pe",
+        generos: ["Ensayos", "Ciencia ficción"],
+        redes_sociales: [{
+            youtube: "@editorial_elcomercio",
+            instagram: "@edi_comercio",
+            twitter: "edita_com"
+        }]
+    },
+    {
+        _id: "ED105",
+        nombre: "Editorial Mesa Redonda",
+        direccion: "Av. Larco 1234, Miraflores, Lima",
+        telefono: 934970006,
+        sitio_web: "www.editorialmesaredonda.com.pe",
+        generos: ["Literatura infantil", "Ensayos"],
+        redes_sociales: [{
+            youtube: "@editorial_mesar",
+            instagram: "@edi_mesaredonda",
+            twitter: "edita_mesa"
+        }]
+    },
+    {
+        _id: "ED106",
+        nombre: "Fondo Editorial PUCP",
+        direccion: "Av. Universitaria 1801, San Miguel, Lima",
+        telefono: 934970056,
+        sitio_web: "www.fondopucp.edu.pe",
+        generos: ["Literatura infantil", "Ciencia ficción"],
+        redes_sociales: [{
+            youtube: "@editorial_pucp",
+            instagram: "@edi_pucp",
+            twitter: "edita_pucp"
+        }]
+    }]
+)
