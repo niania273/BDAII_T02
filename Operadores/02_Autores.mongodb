@@ -1,8 +1,10 @@
-// Operador $lt: Encuentra autores nacidos antes de 1900
-db.autores.find({ "fechaNacimiento": { "$lt": "1900-01-01" } });
- 
-// Operador $lte: Encuentra autores fallecidos en o antes de 1938
-db.autores.find({ "fechaFallecimiento": { "$lte": "1938-12-31" } });
+use("BD_BIBLIOTECA")
+
+// Operador $lt: Encuentra autores con edad menor a 40
+db.autores.find({ edad: { $lt: 40 } })
+
+// Operador $lte: Encuentra autores con edad menor a 50
+db.autores.find({ edad: { $lte: 50 } })
 
 
 

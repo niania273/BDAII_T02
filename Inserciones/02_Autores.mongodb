@@ -1,10 +1,11 @@
 use ("BD_BIBLIOTECA")
- 
+
 db.autores.insertMany([
     {
         "nombre": "Mario Vargas Llosa",
         "nacionalidad": "Peruana",
         "fechaNacimiento": "1936-03-28",
+        "edad": 30,
         "generos": ["Novela", "Ensayo"],
         "obras": ["La ciudad y los perros", "Conversación en La Catedral", "La fiesta del chivo"]
     },
@@ -13,6 +14,7 @@ db.autores.insertMany([
         "nacionalidad": "Peruana",
         "fechaNacimiento": "1892-03-16",
         "fechaFallecimiento": "1938-04-15",
+        "edad": 23,
         "generos": ["Poesía"],
         "obras": ["Los Heraldos Negros", "Trilce", "Poemas humanos"]
     },
@@ -21,6 +23,7 @@ db.autores.insertMany([
         "nacionalidad": "Peruana",
         "fechaNacimiento": "1911-01-18",
         "fechaFallecimiento": "1969-12-02",
+        "edad": 80,
         "generos": ["Novela", "Cuento"],
         "obras": ["Los ríos profundos", "El zorro de arriba y el zorro de abajo", "Todas las sangres"]
     },
@@ -29,6 +32,7 @@ db.autores.insertMany([
         "nacionalidad": "Peruana",
         "fechaNacimiento": "1926-08-10",
         "fechaFallecimiento": "2009-03-12",
+        "edad": 78,
         "generos": ["Poesía"],
         "obras": ["Ese puerto existe", "Valses y otras falsas confesiones", "Canto villano"]
     },
@@ -36,6 +40,7 @@ db.autores.insertMany([
         "nombre": "Alfredo Bryce Echenique",
         "nacionalidad": "Peruana",
         "fechaNacimiento": "1939-02-19",
+        "edad": 45,
         "generos": ["Novela", "Cuento"],
         "obras": ["Un mundo para Julius", "La vida exagerada de Martín Romaña", "No me esperen en abril"]
     },
@@ -44,6 +49,7 @@ db.autores.insertMany([
         "nacionalidad": "Peruana",
         "fechaNacimiento": "1833-02-07",
         "fechaFallecimiento": "1919-10-06",
+        "edad": 50,
         "generos": ["Cuento", "Tradiciones"],
         "obras": ["Tradiciones peruanas"]
     }
