@@ -1,0 +1,52 @@
+use ("BD_BIBLIOTECA") 
+
+db.createCollection("autores");
+
+db.autores.insertMany([
+    {
+        "nombre": "Mario Vargas Llosa",
+        "nacionalidad": "Peruana",
+        "fechaNacimiento": "1936-03-28",
+        "generos": ["Novela", "Ensayo"],
+        "obras": ["La ciudad y los perros", "Conversación en La Catedral", "La fiesta del chivo"]
+    },
+    {
+        "nombre": "César Vallejo",
+        "nacionalidad": "Peruana",
+        "fechaNacimiento": "1892-03-16",
+        "fechaFallecimiento": "1938-04-15",
+        "generos": ["Poesía"],
+        "obras": ["Los Heraldos Negros", "Trilce", "Poemas humanos"]
+    },
+    {
+        "nombre": "José María Arguedas",
+        "nacionalidad": "Peruana",
+        "fechaNacimiento": "1911-01-18",
+        "fechaFallecimiento": "1969-12-02",
+        "generos": ["Novela", "Cuento"],
+        "obras": ["Los ríos profundos", "El zorro de arriba y el zorro de abajo", "Todas las sangres"]
+    },
+    {
+        "nombre": "Blanca Varela",
+        "nacionalidad": "Peruana",
+        "fechaNacimiento": "1926-08-10",
+        "fechaFallecimiento": "2009-03-12",
+        "generos": ["Poesía"],
+        "obras": ["Ese puerto existe", "Valses y otras falsas confesiones", "Canto villano"]
+    },
+    {
+        "nombre": "Alfredo Bryce Echenique",
+        "nacionalidad": "Peruana",
+        "fechaNacimiento": "1939-02-19",
+        "generos": ["Novela", "Cuento"],
+        "obras": ["Un mundo para Julius", "La vida exagerada de Martín Romaña", "No me esperen en abril"]
+    },
+    {
+        "nombre": "Ricardo Palma",
+        "nacionalidad": "Peruana",
+        "fechaNacimiento": "1833-02-07",
+        "fechaFallecimiento": "1919-10-06",
+        "generos": ["Cuento", "Tradiciones"],
+        "obras": ["Tradiciones peruanas"]
+    }
+]);
